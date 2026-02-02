@@ -14,7 +14,9 @@ The objective of this task is to clone the Strapi repository, run it locally, ex
 
 ---
 
+```bash
 ## Step 1: Clone the Strapi Repository
+
 
 git clone https://github.com/strapi/strapi.git
 cd strapi
@@ -50,6 +52,8 @@ Using the Content Manager:
 
 - Created a sample entry for the Article content type
 - Saved and published the entry
+
+```
 
 ```
 
