@@ -24,7 +24,7 @@
       },
       "required": true
     },
-    "blocksContent": {
+    "Descriptions": {
       "type": "blocks",
       "pluginOptions": {
         "i18n": {
@@ -32,47 +32,13 @@
         }
       }
     },
-    "markdownContent": {
-      "type": "richtext",
+    "Published_Date": {
+      "type": "date",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
-    },
-    "cover": {
-      "type": "media",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images"]
-    },
-    "authorName": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "slug": {
-      "type": "uid",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "targetField": "title"
-    },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "articles"
     }
   }
 }

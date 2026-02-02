@@ -64,12 +64,6 @@
       "relation": "oneToOne",
       "target": "api::relation-locale.relation-locale",
       "mappedBy": "category"
-    },
-    "articles": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::article.article",
-      "mappedBy": "categories"
     }
   }
 }
